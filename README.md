@@ -196,3 +196,8 @@ python -m src.experiment.typicality_rt_correlation --all
 Brains & Machines Lab, School of Brain Sciences and Cognition, Ben-Gurion University of the Negev.
 
 This project builds on prior typicality-modeling work and lab infrastructure. CIFAR-10H provides the human classification data underlying the behavioral analyses.
+## Research Poster
+
+Explore the research questions, methodology, and key findings in the full research poster.
+
+📄 [View Research Poster (PDF)](Implicit_Typicality_Poster_new.pdf)
