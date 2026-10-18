@@ -1,0 +1,41 @@
+data:
+  dataset: cifar10
+  batch_size: 128
+  num_workers: 0
+  shuffle: true
+  pin_memory: false
+  download: true
+  resize_method: 224  # Target size for BICUBIC resizing (224x224 pixels)
+
+model:
+  name: DINOv2_ViT_Large
+  
+
+training:
+  epochs: 20
+  learning_rate: 0.01
+  optimizer: adam 
+  weight_decay: 0.0
+  scheduler: null
+  early_stopping:
+    patience: 5
+    min_delta: 0.001
+
+evaluation:
+  metrics: [accuracy, f1_macro]
+  save_predictions: true
+  save_confusion_matrix: true
+
+experiment:
+  name: "cifar10_dino_linear"
+  description: "CIFAR-10 classification using DINOv2 representations and logistic regression"
+  random_seed: 42
+  device: auto
+  cache_dir: cache
+  log_level: INFO
+  save_model: true
+
+logging:
+  log_every_n_steps: 10
+  log_gradients: false
+  log_weights: false

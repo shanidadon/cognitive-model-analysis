@@ -1,0 +1,105 @@
+Model Name,Train Accuracy,Test Accuracy,Timestamp,Error
+DINOv2_ViT_Large,N/A,N/A,2025-11-18 12:29:23,
+DINOv2_ViT_Large,N/A,N/A,2025-11-18 13:01:34,
+DINOv2_ViT_Large,N/A,0.7756,2025-11-18 13:14:13,
+DINOv2_ViT_Large,FAILED,FAILED,2025-11-30 16:01:14,Experiment execution failed: prepare_data() got an unexpected keyword argument 'infra'
+Google_ViT_Large_224,N/A,N/A,2025-11-30 16:01:14,
+Google_ViT_Large_224,FAILED,FAILED,2025-11-30 16:01:16,Experiment execution failed: prepare_data() got an unexpected keyword argument 'infra'
+FAIR_SLIP_ViT_Large_CLIP_25,N/A,N/A,2025-11-30 16:01:16,
+FAIR_SLIP_ViT_Large_CLIP_25,FAILED,FAILED,2025-11-30 16:01:17,"Experiment execution failed: Failed to load model Fair_Clip_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+FAIR_SLIP_ViT_Large_SimCLR_25,N/A,N/A,2025-11-30 16:01:17,
+FAIR_SLIP_ViT_Large_SimCLR_25,FAILED,FAILED,2025-11-30 16:01:19,"Experiment execution failed: Failed to load model Fair_SimCLR_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+FAIR_SLIP_ViT_Large_SLIP_25,N/A,N/A,2025-11-30 16:01:19,
+FAIR_SLIP_ViT_Large_SLIP_25,FAILED,FAILED,2025-11-30 16:01:20,"Experiment execution failed: Failed to load model Fair_SLIP_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+CORnet_RT,N/A,N/A,2025-11-30 16:01:20,
+CORnet_RT,FAILED,FAILED,2025-11-30 16:01:20,Experiment execution failed: prepare_data() got an unexpected keyword argument 'infra'
+Inception_V3,N/A,N/A,2025-11-30 16:01:20,
+Inception_V3,FAILED,FAILED,2025-11-30 16:01:20,Experiment execution failed: prepare_data() got an unexpected keyword argument 'infra'
+Clip_ViT_Large,N/A,N/A,2025-11-30 16:01:20,
+Clip_ViT_Large,FAILED,FAILED,2025-11-30 16:01:21,Experiment execution failed: Failed to load model Clip_ViT_Large: No module named 'ftfy'
+DINOv2_ViT_Large,N/A,0.7756,2025-11-30 16:11:33,
+Google_ViT_Large_224,N/A,0.7847,2025-11-30 16:15:35,
+FAIR_SLIP_ViT_Large_CLIP_25,N/A,N/A,2025-11-30 16:15:35,
+FAIR_SLIP_ViT_Large_CLIP_25,FAILED,FAILED,2025-11-30 16:15:36,"Experiment execution failed: Failed to load model Fair_Clip_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+FAIR_SLIP_ViT_Large_SimCLR_25,N/A,N/A,2025-11-30 16:15:36,
+FAIR_SLIP_ViT_Large_SimCLR_25,FAILED,FAILED,2025-11-30 16:15:37,"Experiment execution failed: Failed to load model Fair_SimCLR_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+FAIR_SLIP_ViT_Large_SLIP_25,N/A,N/A,2025-11-30 16:15:37,
+FAIR_SLIP_ViT_Large_SLIP_25,FAILED,FAILED,2025-11-30 16:15:39,"Experiment execution failed: Failed to load model Fair_SLIP_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+CORnet_RT,N/A,0.7717,2025-11-30 16:16:31,
+Inception_V3,N/A,0.7402,2025-11-30 16:17:47,
+Clip_ViT_Large,N/A,N/A,2025-11-30 16:17:47,
+Clip_ViT_Large,FAILED,FAILED,2025-11-30 16:17:48,Experiment execution failed: Failed to load model Clip_ViT_Large: No module named 'ftfy'
+DINOv2_ViT_Large,N/A,N/A,2026-05-15 15:35:04,
+DINOv2_ViT_Large,FAILED,FAILED,2026-05-15 15:35:08,Experiment execution failed: Failed to load model DINOv2_ViT_Large: No CUDA GPUs are available
+Google_ViT_Large_224,N/A,N/A,2026-05-15 15:35:08,
+Google_ViT_Large_224,FAILED,FAILED,2026-05-15 15:35:10,Experiment execution failed: Failed to load model Google_ViT_Large_224: No CUDA GPUs are available
+FAIR_SLIP_ViT_Large_CLIP_25,N/A,N/A,2026-05-15 15:35:10,
+FAIR_SLIP_ViT_Large_CLIP_25,FAILED,FAILED,2026-05-15 15:35:10,"Experiment execution failed: Failed to load model Fair_Clip_ViT_Large: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+FAIR_SLIP_ViT_Large_SimCLR_25,N/A,N/A,2026-05-15 15:35:10,
+FAIR_SLIP_ViT_Large_SimCLR_25,FAILED,FAILED,2026-05-15 15:35:10,"Experiment execution failed: Failed to load model Fair_SimCLR_ViT_Large: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+FAIR_SLIP_ViT_Large_SLIP_25,N/A,N/A,2026-05-15 15:35:10,
+FAIR_SLIP_ViT_Large_SLIP_25,FAILED,FAILED,2026-05-15 15:35:10,"Experiment execution failed: Failed to load model Fair_SLIP_ViT_Large: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+CORnet_RT,N/A,N/A,2026-05-15 15:35:10,
+CORnet_RT,FAILED,FAILED,2026-05-15 15:35:10,"Experiment execution failed: Failed to load model CORnet_RT: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+Inception_V3,N/A,N/A,2026-05-15 15:35:10,
+Inception_V3,FAILED,FAILED,2026-05-15 15:35:10,Experiment execution failed: Failed to load model Inception_V3: No CUDA GPUs are available
+Clip_ViT_Large,N/A,N/A,2026-05-15 15:35:10,
+Clip_ViT_Large,FAILED,FAILED,2026-05-15 15:35:11,Experiment execution failed: Failed to load model Clip_ViT_Large: No module named 'ftfy'
+DINOv2_ViT_Large,N/A,0.7756,2026-05-25 18:26:55,
+DINOv2_ViT_Large,N/A,0.7756,2026-05-25 18:35:18,
+Google_ViT_Large_224,N/A,0.7847,2026-05-25 18:36:29,
+FAIR_SLIP_ViT_Large_CLIP_25,N/A,N/A,2026-05-25 18:36:29,
+FAIR_SLIP_ViT_Large_CLIP_25,FAILED,FAILED,2026-05-25 18:36:33,"Experiment execution failed: Failed to load model Fair_Clip_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+FAIR_SLIP_ViT_Large_SimCLR_25,N/A,N/A,2026-05-25 18:36:33,
+FAIR_SLIP_ViT_Large_SimCLR_25,FAILED,FAILED,2026-05-25 18:36:36,"Experiment execution failed: Failed to load model Fair_SimCLR_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+FAIR_SLIP_ViT_Large_SLIP_25,N/A,N/A,2026-05-25 18:36:36,
+FAIR_SLIP_ViT_Large_SLIP_25,FAILED,FAILED,2026-05-25 18:36:41,"Experiment execution failed: Failed to load model Fair_SLIP_ViT_Large: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.core.multiarray.scalar was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.core.multiarray.scalar])` or the `torch.serialization.safe_globals([numpy.core.multiarray.scalar])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html."
+CORnet_RT,N/A,0.7717,2026-05-25 18:37:27,
+Inception_V3,N/A,0.7402,2026-05-25 18:39:11,
+Clip_ViT_Large,N/A,N/A,2026-05-25 18:39:11,
+Clip_ViT_Large,FAILED,FAILED,2026-05-25 18:39:13,Experiment execution failed: Failed to load model Clip_ViT_Large: No module named 'ftfy'

@@ -1,0 +1,9 @@
+model_name,accuracy,f1_score,precision,recall,best_alpha,status,error
+DINOv2_ViT_Large,,,,,,experiment_failed,Failed to load model DINOv2_ViT_Large: No CUDA GPUs are available
+Google_ViT_Large_224,,,,,,experiment_failed,Failed to load model Google_ViT_Large_224: No CUDA GPUs are available
+FAIR_SLIP_ViT_Large_CLIP_25,,,,,,experiment_failed,"Failed to load model Fair_Clip_ViT_Large: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+FAIR_SLIP_ViT_Large_SimCLR_25,,,,,,experiment_failed,"Failed to load model Fair_SimCLR_ViT_Large: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+FAIR_SLIP_ViT_Large_SLIP_25,,,,,,experiment_failed,"Failed to load model Fair_SLIP_ViT_Large: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+CORnet_RT,,,,,,experiment_failed,"Failed to load model CORnet_RT: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU."
+Inception_V3,,,,,,experiment_failed,Failed to load model Inception_V3: No CUDA GPUs are available
+Clip_ViT_Large,,,,,,experiment_failed,Failed to load model Clip_ViT_Large: No module named 'ftfy'
